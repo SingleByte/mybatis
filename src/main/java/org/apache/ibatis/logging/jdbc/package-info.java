@@ -16,5 +16,6 @@
 
 /**
  * Logging proxies that logs any JDBC statement.
+ * 输出sql语句的log？
  */
 package org.apache.ibatis.logging.jdbc;
