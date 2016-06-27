@@ -17,5 +17,7 @@
 /**
  * Logging proxies that logs any JDBC statement.
  * 输出sql语句的log？
+ * 将jdbc操作以开发者配置的日志框架打印出来，这也就是我们在开发阶段常用的跟踪sql语句，传入参数，影响行数等的调试信息
+ *
  */
 package org.apache.ibatis.logging.jdbc;
