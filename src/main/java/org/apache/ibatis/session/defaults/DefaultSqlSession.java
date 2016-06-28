@@ -271,6 +271,7 @@ public class DefaultSqlSession implements SqlSession {
     return configuration;
   }
 
+  /*这个是做什么用的呢*/
   @Override
   public <T> T getMapper(Class<T> type) {
     //最后会去调用MapperRegistry.getMapper
